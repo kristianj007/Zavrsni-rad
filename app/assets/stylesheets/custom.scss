@@ -11,6 +11,19 @@ $gray-medium-light: #eaeaea;
   box-sizing:         border-box;
 }
 
+/* signup button */
+
+.btn-primary{
+  color:white;
+  background-color: black;
+  border-color: black;
+  &:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+  }
+}
+
 /* universal */
 
 body {
